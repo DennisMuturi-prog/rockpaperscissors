@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="rockpaperscissors.js"></script>
+    <script src="rockpaperscissors.js" defer></script>
+    <link rel="stylesheet" href="rockpaperscissors.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>FIRST TO REACH FIVE POINTS WINS</h1>
+    <div class="buttons">
+        <p>Click any to make your choice</p>
+        <button class="playbutton" id="rock">rock</button>
+        <button class="playbutton" id="paper">paper</button>
+        <button class="playbutton" id="scissors" >scissors</button>
+        
+    </div>
+    <div class="choices"><label>your choice:</label><label class="playerchoice"></label><div id="playerchoice"></div></div>
+    <div class="choices"><label>computer choice:</label><label class="compchoice"></label><div id="compchoice"></div></div>
+    <div class="player">player count:<label class="playercount"></label></div>
+    <div class="computer">computer count:<label class="compcount"></label></div>
+    <div class="results"></div>
+    <button class="resetbutton">reset</button>
 </body>
 </html>
