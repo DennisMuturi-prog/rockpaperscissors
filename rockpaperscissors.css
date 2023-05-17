@@ -1,0 +1,78 @@
+div{
+    
+    border:1px whitesmoke solid;
+    border-radius: 5px;
+    
+}
+.buttons{
+    display: flex;
+    gap:20px;
+}
+.playbutton{
+    width: 170px;
+    height:100px;
+    font-size: large;
+    border-radius:30px;
+    font-weight: 600;
+    color:rebeccapurple;
+}
+.resetbutton{
+    background-color: red;
+    color:white;
+}
+#rock{
+    background: url(rock.jpeg);
+}
+#paper{
+    background: url(paper.png);
+
+}
+#scissors{
+    background: url(scissors.jpeg);
+
+
+}
+.playbutton:hover,
+.playbutton:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+body{
+    background-color: aliceblue;
+
+
+}
+label{
+    width:200px;
+    font-size: 40px;
+    font-weight: 600;
+    display:inline;
+}
+
+.results{
+    font-weight: 700;
+    font-size: large;
+}
+.rock{
+    background: url(rock.jpeg);
+    border-radius: 5px;
+}
+.paper{
+    background: url(paper.png);
+    border-radius: 5px;
+
+}
+.scissors{
+    background: url(scissors.jpeg);
+    border-radius: 5px;
+
+
+}
+#playerchoice,#compchoice{
+    width:170px;
+    height:110px;
+}
+.choices{
+    display:flex;
+    gap:30px;
+}
